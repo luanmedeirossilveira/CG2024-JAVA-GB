@@ -1,0 +1,46 @@
+{
+  "objects": [
+    {
+      "modelPath": "models\\Suzannes\\Suzanne.obj",
+      "position": [0.0, 0.0, 0.0],
+      "scale": [1.0, 1.0, 1.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "animation": {
+        "type": "bezier",
+        "points": [
+          [0.0, 0.0, 0.0],
+          [1.0, 2.0, 0.0],
+          [2.0, -1.0, 0.0],
+          [3.0, 0.0, 0.0]
+        ]
+      }
+    },
+    {
+      "modelPath": "models\\Navezinha\\Nave.obj",
+      "position": [0.0, 0.0, 0.0],
+      "scale": [1.0, 1.0, 1.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "animation": {
+        "type": "bezier",
+        "points": [
+          [0.0, 0.0, 0.0],
+          [1.0, 2.0, 0.0],
+          [2.0, -1.0, 0.0],
+          [3.0, 0.0, 0.0]
+        ]
+      }
+    }
+  ],
+  "lights": [
+    {
+      "position": [2.0, 2.0, 2.0],
+      "color": [1.0, 1.0, 1.0]
+    }
+  ],
+  "camera": {
+    "position": [0.0, 0.0, 5.0],
+    "fov": 45,
+    "near": 0.1,
+    "far": 100.0
+  }
+}
